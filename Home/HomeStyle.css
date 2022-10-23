@@ -1,0 +1,150 @@
+
+body{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    font-family: sans-serif;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+header{
+    background: rgb(26, 26, 26);
+    padding: 20px 0;
+}
+
+#logo{
+    width: 20%;
+}
+
+nav{
+    position: absolute;
+    top: 100px;
+    right: 0%;
+}
+
+nav ul{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 76);
+    /* text-decoration: underline; */
+}
+
+
+/* .banner-background{
+    width: 100%;
+    /* height: 00%; /
+} */
+
+.resumo{
+    background-color: rgb(8, 8, 8);
+    padding: 30px;
+    display: flex; 
+}
+
+.textos{
+    color: rgb(201, 201, 201);
+    width: 35%;
+    /* border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1.9%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.titulo-centralizado{
+    color: rgb(255, 0, 76);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+#banner{
+    margin: auto;
+    width: 50%;
+    border: 5px;
+    border-radius: 10px;
+}
+
+
+.oq {
+    font-style: italic;
+}
+
+
+em strong{
+    color: rgb(141, 141, 141);
+}
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    /* background-color: rgb(8, 8, 8); */
+    padding: 20px;
+    color: rgb(201, 201, 201);
+    width: 35%;
+    /* border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1.9%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.clown1{
+    width: 25%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    padding: 20px;
+}
+
+.logo2{
+    width: 10%;
+}
+
+.copyright{
+    font-size: 13px;
+    /* margin-top: 1px; */
+    color: aliceblue;
+}
