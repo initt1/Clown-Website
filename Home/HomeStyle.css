@@ -50,10 +50,13 @@ nav a:hover {
 }
 
 
-/* .banner-background{
-    width: 100%;
-    /* height: 00%; /
-} */
+.allpage {
+    padding: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
 
 .resumo{
     background-color: rgb(8, 8, 8);
@@ -63,7 +66,7 @@ nav a:hover {
 
 .textos{
     color: rgb(201, 201, 201);
-    width: 35%;
+    width: 90%;
     /* border: 2px solid rgb(255, 255, 255);
     border-radius: 10px; */
     text-align: center;
@@ -86,7 +89,7 @@ nav a:hover {
 
 #banner{
     margin: auto;
-    width: 50%;
+    width: 45%;
     border: 5px;
     border-radius: 10px;
 }
